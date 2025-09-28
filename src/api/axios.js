@@ -1,7 +1,7 @@
 import axios from "axios";
 
 const API = axios.create({
-  baseURL: "http://localhost:5000/api", // 👈 change if backend is deployed
+  baseURL: "https://module-back.vercel.app/", // 👈 change if backend is deployed
 });
 
 // Attach token to requests (for /tasks routes etc.)
